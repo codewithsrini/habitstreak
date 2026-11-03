@@ -1,0 +1,7 @@
+# Frontend
+node_modules/
+frontend/dist
+.env.local
+
+# Local DB
+*.db
