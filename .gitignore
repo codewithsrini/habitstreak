@@ -3,5 +3,8 @@ node_modules/
 frontend/dist
 .env.local
 
+# Backend
+*.pyc
+
 # Local DB
 *.db
