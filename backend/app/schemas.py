@@ -27,3 +27,6 @@ class HabitOut(CamelModel):
     current_streak: int
     longest_streak: int
     done_today: bool
+
+class CheckInHistory(CamelModel):
+    dates: list[dt.date]
